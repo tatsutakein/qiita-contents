@@ -21,7 +21,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4.2.2
 
-      - uses: increments/qiita-cli/actions/publish@v1.6.1
+      - uses: increments/qiita-cli/actions/publish@v1.6.2
         with:
           qiita-token: ${{ secrets.QIITA_TOKEN }}
           root: "."
