@@ -19,9 +19,9 @@ jobs:
     timeout-minutes: 5
     steps:
       - name: Checkout
-        uses: actions/checkout@v6.0.0
+        uses: actions/checkout@v6.0.1
 
-      - uses: increments/qiita-cli/actions/publish@v1.6.2
+      - uses: increments/qiita-cli/actions/publish@v1.7.0
         with:
           qiita-token: ${{ secrets.QIITA_TOKEN }}
           root: "."
