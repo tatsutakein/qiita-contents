@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@qiita/qiita-cli": "1.6.2"
+    "@qiita/qiita-cli": "1.7.0"
   },
   "packageManager": "bun@1.0.21"
 }
